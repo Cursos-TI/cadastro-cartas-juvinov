@@ -17,26 +17,54 @@ int main() {
 
   printf("-- SUPER TRUNFO --\nCadastro de Cartas:\nCarta 01\n\n");  // mensagem de entrada do jogo
 
-  printf("Digite a primeira letra do Estado:\n"); 
-  scanf("%s", &estado1);
+  printf("Digite a primeira letra do Estado:\n");
+  scanf(" %c", &estado1); // salva o texto digitado na variável estado
 
   printf("Digite o código da Carta:\nOBs: O código vai 01 a 04.\n"); 
-  scanf("%d", &codigo1);
+  scanf("%d", &codigo1); // salva o texto digitado na variável código
 
   printf("Digite o nome da cidade:\n"); 
-  scanf("%s", &cidade1);
+  scanf(" %[^\n]", &cidade1); // salva o texto digitado na variável cidade
 
   printf("Digite o número de habitantes:\n"); 
-  scanf("%d", &hab1);
+  scanf("%d", &hab1); // salva o texto digitado na variável habitantes
 
   printf("Digite a área da cidade (em km²):\n"); 
-  scanf("%f", &area1);
+  scanf("%f", &area1); // salva o texto digitado na variável área
 
   printf("Digite o pib da cidade;\n"); 
-  scanf("%f", &pib1);
+  scanf("%f", &pib1); // salva o texto digitado na variável pib
 
   printf("Números de ponto turísticos;\n"); 
-  scanf("%d", &pontos1);
+  scanf("%d", &pontos1); // salva o texto digitado na variável pontos turisticos
+
+    printf("\n\nCadastro de Cartas:\nCarta 02\n\n");  // mensagem de entrada do jogo
+
+    printf("Digite a primeira letra do Estado:\n");
+    scanf(" %c", &estado2); // salva o texto digitado na variável estado
+
+    printf("Digite o código da Carta:\nOBs: O código vai 01 a 04.\n"); 
+    scanf("%d", &codigo2); // salva o texto digitado na variável código
+
+    printf("Digite o nome da cidade:\n"); 
+    scanf(" %[^\n]", &cidade2); // salva o texto digitado na variável cidade
+
+    printf("Digite o número de habitantes:\n"); 
+    scanf("%d", &hab2); // salva o texto digitado na variável habitantes
+
+    printf("Digite a área da cidade (em km²):\n"); 
+    scanf("%f", &area2); // salva o texto digitado na variável área
+
+    printf("Digite o pib da cidade;\n"); 
+    scanf("%f", &pib2); // salva o texto digitado na variável pib
+
+    printf("Números de ponto turísticos;\n"); 
+    scanf("%d", &pontos2); // salva o texto digitado na variável pontos turisticos
+
+      printf("\n-- CARTA 01 --\n\n");
+
+      printf("- ESTADO: %c \n- CÓDIGO: %c%02d \n-", estado1, estado1, codigo1);
+    
 
 
   
